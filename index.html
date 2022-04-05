@@ -11,8 +11,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />    <link rel="stylesheet" href="styles.css" />
     <title>Noro and Denis TODO List</title>
   </head>
   <body>
@@ -30,7 +29,7 @@
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col col-xl-10">
 
-        <div class="card" style="border-radius: 15px;">
+        <div class="card">
           <div class="card-body p-5">
 
             <h6 class="mb-3">Noro und Denis Awesome Todo List</h6>
@@ -40,32 +39,53 @@
                 <label class="form-label" for="form3"></label>by submitting your task it will show up in your Todos</label>
               </div>
               <div>
-                <button type="submit" class="btn btn-seondary btn-lg ms-2"><i class="fa-regular fa-plus"></i></i></button>
+                <button type="submit" class="btn btn-seondary btn-lg ms-2"><i class="fa fa-regular fa-plus"></i></button>
               </div>
             </form>
-                             <hr class="rounded">
+              <hr class="rounded">
 
             <ul class="list-group">
-  <li class="list-group-item">
+  <li class="list-group-item justify-content-between align-items-center">
     <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-       Task list and assignments      
+    <div class="todo-text">
+       Task list and assignments
+    </div>
+    <i class="fa-solid fa-pen"></i>
+<i class="fa-solid fa-trash-can"></i>
   </li>
       <!-- List content -->
 
   <li class="list-group-item">
     <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-Set due date and assignments  </li>
+    <div class="todo-text">
+       Another task
+    </div> 
+    <i class="fa-solid fa-pen"></i>
+    <i class="fa-solid fa-trash-can"></i>
+</li>
   <li class="list-group-item">
     <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-    Remove duplicate tasks and stories
-
+    <div class="todo-text">
+       Another Task 3
+    </div>
+    <i class="fa-solid fa-pen"></i>
+    <i class="fa-solid fa-trash-can"></i>
   </li>
   <li class="list-group-item">
     <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-Update the userflow and stories  </li>
+    <div class="todo-text">
+       Another blablabla task
+    </div>
+    <i class="fa-solid fa-pen"></i>
+    <i class="fa-solid fa-trash-can"></i>
+</li>
   <li class="list-group-item">
     <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-Adjust the components
+    <div class="todo-text">
+       this is finally the last task
+    </div>
+<i class="fa-solid fa-pen"></i>
+    <i class="fa-solid fa-trash-can"></i>
   </li>
 </ul>
             </div>
