@@ -37,4 +37,39 @@ p {
 }
 .list-group-item {
   background-color: whitesmoke;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  display: flex;
+  align-items: center;
+}
+.list-group-item:first-child {
+  border-radius: 0;
+}
+.card {
+  box-shadow: 0px 0px 3px 1px darkblue;
+  border-radius: 15px;
+  background-color: lightblue;
+}
+.list-group-item .todo-text {
+  flex-grow: 2;
+  margin: 0 10px;
+  order: 1;
+}
+.list-group-item i.fa-trash-can {
+  flex-grow: 0;
+  cursor: pointer;
+  color: black;
+  order: 3;
+}
+.list-group-item i.fa-pen {
+  flex-grow: 0;
+  order: 2;
+  cursor: pointer;
+  border-radius: 0;
+}
+.list-group-item i.fa-trash-can:hover {
+  color: grey;
+}
+.list-group-item i.fa-pen:hover {
+  color: grey;
 }
