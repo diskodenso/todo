@@ -33,29 +33,29 @@
           <div class="card-body p-5">
 
             <h6 class="mb-3">Noro und Denis Awesome Todo List</h6>
-            <form class="d-flex justify-content-center align-items-center mb-4">
+            <form id="form" class="d-flex justify-content-center align-items-center mb-4">
               <div class="form-outline flex-fill">
                 <input type="text" id="form3" class="form-control form-control-lg" placeholder="What do you need to do today?"/>
                 <label class="form-label" for="form3"></label>by submitting your task it will show up in your Todos</label>
               </div>
               <div>
-                <button type="submit" class="btn btn-seondary btn-lg ms-2"><i class="fa fa-regular fa-plus"></i></button>
+                <button type="submit" id="btn" class="btn btn-seondary btn-lg "><i class="fa fa-regular fa-plus"></i></button>
               </div>
             </form>
               <hr class="rounded">
 
-            <ul class="list-group">
-  <li class="list-group-item justify-content-between align-items-center">
+            <ul class="list-group" id="container">
+  <!--<li class="list-group-item justify-content-between align-items-center">
     <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
     <div class="todo-text">
        Task list and assignments
     </div>
     <i class="fa-solid fa-pen"></i>
-<i class="fa-solid fa-trash-can"></i>
-  </li>
+<i id="icon" class="fa-solid fa-trash-can"></i>
+  </li>-->
       <!-- List content -->
 
-  <li class="list-group-item">
+  <!--<li class="list-group-item">
     <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
     <div class="todo-text">
        Another task
@@ -86,7 +86,7 @@
     </div>
 <i class="fa-solid fa-pen"></i>
     <i class="fa-solid fa-trash-can"></i>
-  </li>
+  </li>-->
 </ul>
             </div>
             </div>
@@ -103,5 +103,6 @@
   </div>
   <!-- Copyright -->
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>

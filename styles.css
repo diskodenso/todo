@@ -73,3 +73,7 @@ p {
 .list-group-item i.fa-pen:hover {
   color: grey;
 }
+
+.fa{
+  background-color:aliceblue;
+}
